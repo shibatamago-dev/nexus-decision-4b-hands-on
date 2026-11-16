@@ -1,0 +1,493 @@
+{
+  "total": 54,
+  "passed": 47,
+  "coverage_at_5pct": 43,
+  "rows": [
+    {
+      "case": "waldo",
+      "qid": "waldo_cell",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.6564764226606887,
+      "expected": "middle-right",
+      "got": "middle-right"
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_top-left",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9907635204177241,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_top-center",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9287492374341324,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_top-right",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.7058818927932711,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_middle-left",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.8937573282912518,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_middle-center",
+      "type": "noul",
+      "pass": false,
+      "confidence": 0.5443044954399239,
+      "expected": false,
+      "got": true
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_middle-right",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.8628970069131734,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_bottom-left",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9554563347011119,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_bottom-center",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.8094451021672212,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "waldo",
+      "qid": "is_in_bottom-right",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.783226799208908,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "design_doc",
+      "qid": "has_purpose",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9999455826659068,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "design_doc",
+      "qid": "has_nonfunctional",
+      "type": "noul",
+      "pass": false,
+      "confidence": 0.9865447648276983,
+      "expected": false,
+      "got": true
+    },
+    {
+      "case": "design_doc",
+      "qid": "has_constraints",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9993296242585584,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "design_doc",
+      "qid": "numbers_consistent",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9932609394639578,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "design_doc",
+      "qid": "has_error_handling",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9997486420596335,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "design_doc",
+      "qid": "terms_defined",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9772028924082106,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "design_doc",
+      "qid": "has_impact_migration",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9998164262768691,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "design_doc",
+      "qid": "completeness",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.41302337315159837,
+      "expected": 2.0,
+      "got": 2.215106157916225
+    },
+    {
+      "case": "road/road-clean.png",
+      "qid": "has_fallen_luggage",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9996445455764857,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "road/road-clean.png",
+      "qid": "road_clear",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9331696239839303,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "road/road-clean.png",
+      "qid": "what_on_road",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.98100635358368,
+      "expected": "nothing",
+      "got": "nothing"
+    },
+    {
+      "case": "road/road-clean.png",
+      "qid": "severity",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.9690840001920475,
+      "expected": 0.0,
+      "got": 0.03474687622162728
+    },
+    {
+      "case": "road/road-luggage.png",
+      "qid": "has_fallen_luggage",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9969622585268005,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "road/road-luggage.png",
+      "qid": "road_clear",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9940839451958767,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "road/road-luggage.png",
+      "qid": "what_on_road",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.9993360111892045,
+      "expected": "luggage_or_box",
+      "got": "luggage_or_box"
+    },
+    {
+      "case": "road/road-luggage.png",
+      "qid": "severity",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.7119993512217416,
+      "expected": 2.0,
+      "got": 1.711379695859452
+    },
+    {
+      "case": "bear/forest-none.png",
+      "qid": "has_bear",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9997449871681796,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "bear/forest-none.png",
+      "qid": "has_large_animal",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.999752875635578,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "bear/forest-none.png",
+      "qid": "what_animal",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.9994131554871484,
+      "expected": "none",
+      "got": "none"
+    },
+    {
+      "case": "bear/forest-none.png",
+      "qid": "proximity",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.9529562147764448,
+      "expected": 0.0,
+      "got": 0.04987794022912578
+    },
+    {
+      "case": "bear/forest-bear.png",
+      "qid": "has_bear",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9976981842040492,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "bear/forest-bear.png",
+      "qid": "has_large_animal",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.95912078842032,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "bear/forest-bear.png",
+      "qid": "what_animal",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.9509181303210363,
+      "expected": "bear",
+      "got": "bear"
+    },
+    {
+      "case": "bear/forest-bear.png",
+      "qid": "proximity",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.9108388120061041,
+      "expected": 2.0,
+      "got": 1.9101825141767133
+    },
+    {
+      "case": "bear/forest-dog.png",
+      "qid": "has_bear",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9970549676971597,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "bear/forest-dog.png",
+      "qid": "has_large_animal",
+      "type": "noul",
+      "pass": false,
+      "confidence": 0.6892048690711798,
+      "expected": true,
+      "got": false
+    },
+    {
+      "case": "bear/forest-dog.png",
+      "qid": "what_animal",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.8595623602218987,
+      "expected": "dog",
+      "got": "dog"
+    },
+    {
+      "case": "bear/forest-dog.png",
+      "qid": "proximity",
+      "type": "score",
+      "pass": false,
+      "confidence": 0.8095460832812129,
+      "expected": 1.0,
+      "got": 1.808850359063326
+    },
+    {
+      "case": "realistic/bear-close.jpg",
+      "qid": "has_bear",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.99997331126309,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "realistic/bear-close.jpg",
+      "qid": "has_large_animal",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9999666428496498,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "realistic/bear-close.jpg",
+      "qid": "what_animal",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.9999568795873656,
+      "expected": "bear",
+      "got": "bear"
+    },
+    {
+      "case": "realistic/bear-close.jpg",
+      "qid": "proximity",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.9998952754197113,
+      "expected": 2.0,
+      "got": 1.9998393731696376
+    },
+    {
+      "case": "realistic/bear-distant.jpg",
+      "qid": "has_bear",
+      "type": "noul",
+      "pass": false,
+      "confidence": 0.9405190646891859,
+      "expected": true,
+      "got": false
+    },
+    {
+      "case": "realistic/bear-distant.jpg",
+      "qid": "has_large_animal",
+      "type": "noul",
+      "pass": false,
+      "confidence": 0.5955841847221961,
+      "expected": true,
+      "got": false
+    },
+    {
+      "case": "realistic/bear-distant.jpg",
+      "qid": "what_animal",
+      "type": "choice",
+      "pass": false,
+      "confidence": 0.438098025179641,
+      "expected": "bear",
+      "got": "deer"
+    },
+    {
+      "case": "realistic/bear-distant.jpg",
+      "qid": "proximity",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.9948673396733776,
+      "expected": 1.0,
+      "got": 0.9959127108299464
+    },
+    {
+      "case": "realistic/dog.jpg",
+      "qid": "has_bear",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.999868189838269,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "realistic/dog.jpg",
+      "qid": "has_large_animal",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9964627792189066,
+      "expected": true,
+      "got": true
+    },
+    {
+      "case": "realistic/dog.jpg",
+      "qid": "what_animal",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.9999172367586753,
+      "expected": "dog",
+      "got": "dog"
+    },
+    {
+      "case": "realistic/dog.jpg",
+      "qid": "proximity",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.9997212178582392,
+      "expected": 2.0,
+      "got": 1.999641874723539
+    },
+    {
+      "case": "realistic/empty.jpg",
+      "qid": "has_bear",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9997396984377566,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "realistic/empty.jpg",
+      "qid": "has_large_animal",
+      "type": "noul",
+      "pass": true,
+      "confidence": 0.9998046819827646,
+      "expected": false,
+      "got": false
+    },
+    {
+      "case": "realistic/empty.jpg",
+      "qid": "what_animal",
+      "type": "choice",
+      "pass": true,
+      "confidence": 0.9936522237724787,
+      "expected": "none",
+      "got": "none"
+    },
+    {
+      "case": "realistic/empty.jpg",
+      "qid": "proximity",
+      "type": "score",
+      "pass": true,
+      "confidence": 0.9857461048996883,
+      "expected": 0.0,
+      "got": 0.014909431049728245
+    }
+  ]
+}
